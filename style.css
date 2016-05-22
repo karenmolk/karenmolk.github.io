@@ -1,0 +1,112 @@
+
+.jumbotron {
+  background-image: url(http://iliketowastemytime.com/system/files/green-mountain-road-2560x1600.jpg); 
+  height: 900px;
+  width:100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+          position:fixed;
+
+}
+
+.nav img{ position:relative;
+bottom:20px;
+    
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  position:relative;
+  bottom:20px;
+  
+}
+
+.nav li {
+  display: inline;
+}
+
+.titre{
+    position: relative; /* or absolute */
+  top: 20%;
+left:50%;  
+text-align:center;
+
+
+  transform: translate(-50%, -50%);
+}
+ 
+    
+
+.titre h1{color: #fff;
+  font-size: 50px;  
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;
+  
+
+    
+}
+
+.titre p{
+    color:white;
+}
+.startnow a {
+    position:relative;
+    top:90px;
+    left:45%;
+    color:yellow;
+    font-size:20px;
+}
+
+a.ex2:hover, a.ex2:active {
+    font-size: 25px;
+    text-decoration:none;
+
+}
+
+#footer  {
+    background-color:black;
+    clear:both;
+    text-align:center;
+    width:100%;
+    height:100px;
+    position:fixed;
+    top:90%;
+    opacity: 0.8;
+
+    }
+    
+    .right p{ 
+    font-size:14px;
+    position:absolute;
+    right:50px; 
+    top:30px;
+    text-decoration:none;
+    color:gray;
+
+    }
+  
+    
+    .left li{
+        display:inline;
+        padding:10px ;
+        
+        
+    }
+    
+    .left a{ 
+        color:gray;
+        text-decoration:uppercase;
+        font-size:15px;
+        position:relative;
+        top:30px;
+        
+        
+    }
+  
+    
